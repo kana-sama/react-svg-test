@@ -10,6 +10,6 @@ const App = () => (
   </div>
 );
 
-// const root = document.createElement("div");
-// document.body.appendChild(root);
-render(<App />, document.body);
+const root = document.createElement("div");
+document.body.appendChild(root);
+render(<App />, root);
